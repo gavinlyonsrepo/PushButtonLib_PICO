@@ -1,13 +1,13 @@
 /*
- * File: PushButtonLib.hpp
+ * File: push_button.hpp
  * Description: 
  * A small library to read push buttons basic functionality 
  * Description: See URL for full details.
  * URL: https://github.com/gavinlyonsrepo/PushButtonLib_PICO
  */
 
-#ifndef PushButtonLib_hpp
-#define PushButtonLib_hpp
+#ifndef _PushButtonLib_hpp
+#define _PushButtonLib_hpp
 
 
 #define DEBOUNCE_DELAY 50 // mS

@@ -1,7 +1,6 @@
 /*
  * File: main.cpp
- * Description: 
- * An example file to test library PushButtonLib
+ * Description: An example file to test library PushButtonLib
  * Description: See URL for full details.
  * URL: https://github.com/gavinlyonsrepo/PushButtonLib_PICO
  */
@@ -9,7 +8,7 @@
 // Section :: Include the Library
 #include <stdio.h>
 #include "pico/stdlib.h"
-#include "pushbutton/PushButtonLib.hpp"
+#include "pushbutton/push_button.hpp"
 
 // Section :: Defines
 #define INIT_DELAY 500 // mS
@@ -18,9 +17,9 @@
 // Section :: globals define the Push Button Objects
 // Connect your button between the GPIO pin and GND
 // Library uses internal pullup resistors of PICO
-PushButton button1(1, MY_DEBOUNCE_DELAY); 
-PushButton button2(2, MY_DEBOUNCE_DELAY); 
-PushButton button3(3, MY_DEBOUNCE_DELAY);
+PushButton button1(7, MY_DEBOUNCE_DELAY); 
+PushButton button2(6, MY_DEBOUNCE_DELAY); 
+PushButton button3(5, MY_DEBOUNCE_DELAY);
 
 int main(){
 	

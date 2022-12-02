@@ -1,5 +1,5 @@
 /*
- * File: PushButtonLib.cpp
+ * File: push_button.cpp
  * Description: 
  * A Simple small library to read push buttons
  * Description: See URL for full details.
@@ -7,7 +7,7 @@
  */
 
 #include "pico/stdlib.h"
-#include "../include/pushbutton/PushButtonLib.hpp"
+#include "../include/pushbutton/push_button.hpp"
 
 // Constructor
 // Param1 :: The GPIO button connected to.

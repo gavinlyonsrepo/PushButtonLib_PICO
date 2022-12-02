@@ -23,7 +23,7 @@ pico_add_extra_outputs(${PROJECT_NAME})
 add_library(pico_pushbutton INTERFACE)
 
 target_sources(pico_pushbutton INTERFACE
-  ${CMAKE_CURRENT_LIST_DIR}/src/pushbutton/PushButtonLib.cpp
+  ${CMAKE_CURRENT_LIST_DIR}/src/pushbutton/push_button.cpp
 )
 
 target_include_directories(pico_pushbutton INTERFACE ${CMAKE_CURRENT_LIST_DIR}/include)
